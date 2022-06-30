@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/tela"
+    android:background="@drawable/x">
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Aperte o botão apos inserir seu nome abaixo"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="25sp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/textInserirNome"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:text="Insira seu nome"
+        android:layout_marginStart="120dp"
+        android:autofillHints="name"
+        android:inputType="text"
+        android:layout_marginTop="100dp"
+        android:selectAllOnFocus="true"/>
+
+    <Button
+        android:id="@+id/buttonDeTroca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trocar Imagem"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="350dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
